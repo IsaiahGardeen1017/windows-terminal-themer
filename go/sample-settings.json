@@ -1,0 +1,240 @@
+{
+    "$help": "https://aka.ms/terminal-documentation",
+    "$schema": "https://aka.ms/terminal-profiles-schema",
+    "actions": 
+    [
+        {
+            "command": 
+            {
+                "action": "copy",
+                "singleLine": false
+            },
+            "id": "User.copy.644BA8F2"
+        },
+        {
+            "command": "paste",
+            "id": "User.paste"
+        },
+        {
+            "command": 
+            {
+                "action": "splitPane",
+                "split": "auto",
+                "splitMode": "duplicate"
+            },
+            "id": "User.splitPane.A6751878"
+        },
+        {
+            "command": "find",
+            "id": "User.find"
+        }
+    ],
+    "alwaysOnTop": false,
+    "copyFormatting": "none",
+    "copyOnSelect": false,
+    "defaultProfile": "{2ece5bfe-50ed-5f3a-ab87-5cd4baafed2b}",
+    "keybindings": 
+    [
+        {
+            "id": "User.copy.644BA8F2",
+            "keys": "ctrl+c"
+        },
+        {
+            "id": "User.find",
+            "keys": "ctrl+shift+f"
+        },
+        {
+            "id": "User.paste",
+            "keys": "ctrl+v"
+        },
+        {
+            "id": "User.splitPane.A6751878",
+            "keys": "alt+shift+d"
+        }
+    ],
+    "newTabMenu": 
+    [
+        {
+            "type": "remainingProfiles"
+        }
+    ],
+    "profiles": 
+    {
+        "defaults": 
+        {
+            "colorScheme": "Zaporozhian Cossacks",
+            "elevate": true
+        },
+        "list": 
+        [
+            {
+                "colorScheme": "Campbell Powershell",
+                "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+                "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+                "hidden": false,
+                "name": "Windows PowerShell"
+            },
+            {
+                "backgroundImageOpacity": 0.65,
+                "colorScheme": "Vintage",
+                "commandline": "%SystemRoot%\\System32\\cmd.exe",
+                "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+                "hidden": false,
+                "intenseTextStyle": "all",
+                "name": "Command Prompt",
+                "opacity": 100,
+                "useAcrylic": true
+            },
+            {
+                "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
+                "hidden": true,
+                "name": "Azure Cloud Shell",
+                "source": "Windows.Terminal.Azure"
+            },
+            {
+                "adjustIndistinguishableColors": "indexed",
+                "backgroundImage": null,
+                "backgroundImageOpacity": 0.3,
+                "backgroundImageStretchMode": "uniformToFill",
+                "elevate": true,
+                "experimental.retroTerminalEffect": false,
+                "font": 
+                {
+                    "face": "Cascadia Mono"
+                },
+                "guid": "{2ece5bfe-50ed-5f3a-ab87-5cd4baafed2b}",
+                "hidden": false,
+                "name": "TERM",
+                "opacity": 80,
+                "source": "Git",
+                "startingDirectory": "C:\\Rest2.4.4\\iops-rest-packages",
+                "useAcrylic": true
+            },
+            {
+                "adjustIndistinguishableColors": "never",
+                "backgroundImage": "C:\\Users\\IGARDEEN\\Pictures\\Saved Pictures\\Ilja_Jefimowitsch_Repin_-_Reply_of_the_Zaporozhian_Cossacks_-_Yorck.jpg",
+                "backgroundImageOpacity": 0.1,
+                "backgroundImageStretchMode": "uniformToFill",
+                "colorScheme": "Zaporozhian Cossacks",
+                "commandline": "C:/Program Files/Git/bin/bash.exe -i -l",
+                "elevate": true,
+                "experimental.retroTerminalEffect": false,
+                "font": 
+                {
+                    "colorGlyphs": true
+                },
+                "guid": "{4f6cd1fa-ff7c-4e0b-8679-7213cc6d47d7}",
+                "hidden": false,
+                "icon": "C:/Program Files/Git/mingw64/share/git/git-for-windows.ico",
+                "intenseTextStyle": "bold",
+                "name": "Cossakcs",
+                "opacity": 25,
+                "startingDirectory": "C:\\Rest2.4.4\\iops-rest-packages",
+                "useAcrylic": false
+            },
+            {
+                "guid": "{f4c3e881-7129-5410-badf-8a5216efe11e}",
+                "hidden": false,
+                "name": "rancher-desktop",
+                "source": "Microsoft.WSL"
+            },
+            {
+                "guid": "{6e11b3fe-ee24-596f-9885-1d7223ba0a2e}",
+                "hidden": false,
+                "name": "rancher-desktop",
+                "source": "Microsoft.WSL"
+            },
+            {
+                "adjustIndistinguishableColors": "always",
+                "backgroundImage": null,
+                "backgroundImageOpacity": 0.1,
+                "backgroundImageStretchMode": "uniformToFill",
+                "colorScheme": "Color Scheme 15",
+                "commandline": "C:/Program Files/Git/bin/bash.exe -i -l",
+                "cursorShape": "vintage",
+                "elevate": true,
+                "experimental.retroTerminalEffect": true,
+                "font": 
+                {
+                    "face": "Courier New"
+                },
+                "guid": "{54f62063-61d6-4b25-929f-7f8b3348319f}",
+                "hidden": false,
+                "icon": "C:/Program Files/Git/mingw64/share/git/git-for-windows.ico",
+                "name": "RETRO",
+                "opacity": 100,
+                "startingDirectory": "C:\\Rest2.4.4\\iops-rest-packages",
+                "useAcrylic": false
+            },
+            {
+                "guid": "{585627b3-b5a4-52d1-9b07-bda27200c628}",
+                "hidden": false,
+                "name": "rancher-desktop",
+                "source": "Microsoft.WSL"
+            },
+            {
+                "guid": "{7bb2aa0d-aabd-50f3-ae03-d09a707a01d5}",
+                "hidden": false,
+                "name": "rancher-desktop",
+                "source": "Microsoft.WSL"
+            },
+            {
+                "guid": "{5c5abbe6-ffdf-56ae-a049-a97f25f9db31}",
+                "hidden": false,
+                "name": "rancher-desktop",
+                "source": "Microsoft.WSL"
+            }
+        ]
+    },
+    "schemes": 
+    [
+        {
+            "background": "#000000",
+            "black": "#0C0C0C",
+            "blue": "#00DA7A",
+            "brightBlack": "#767676",
+            "brightBlue": "#42FFB9",
+            "brightCyan": "#22D642",
+            "brightGreen": "#16C60C",
+            "brightPurple": "#0E290B",
+            "brightRed": "#CFE747",
+            "brightWhite": "#D9F2D5",
+            "brightYellow": "#D9F9A7",
+            "cursorColor": "#FFFFFF",
+            "cyan": "#4EDD8D",
+            "foreground": "#00FF00",
+            "green": "#13A10E",
+            "name": "Color Scheme 15",
+            "purple": "#053301",
+            "red": "#A8C500",
+            "selectionBackground": "#FFFFFF",
+            "white": "#98CC96",
+            "yellow": "#9BC100"
+        },
+        {
+            "background": "#38383A",
+            "black": "#1A1E1B",
+            "blue": "#6773BF",
+            "brightBlack": "#0F1210",
+            "brightBlue": "#535DFF",
+            "brightCyan": "#61D6D6",
+            "brightGreen": "#5BA826",
+            "brightPurple": "#C21DF5",
+            "brightRed": "#B33030",
+            "brightWhite": "#F2F2F2",
+            "brightYellow": "#FFDF51",
+            "cursorColor": "#FFFFFF",
+            "cyan": "#3A96DD",
+            "foreground": "#DEFADF",
+            "green": "#88AB48",
+            "name": "Zaporozhian Cossacks",
+            "purple": "#AB52D6",
+            "red": "#913D3D",
+            "selectionBackground": "#FFFFFF",
+            "white": "#CCCCCC",
+            "yellow": "#C2AA3E"
+        }
+    ],
+    "themes": [],
+    "useAcrylicInTabRow": true
+}
